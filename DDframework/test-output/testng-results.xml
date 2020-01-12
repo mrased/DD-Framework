@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven Framework2" duration-ms="13807" started-at="2020-01-12T17:21:22Z" finished-at="2020-01-12T17:21:36Z">
+    <groups>
+    </groups>
+    <test name="NextDoorPageTitleMatch Test" duration-ms="103" started-at="2020-01-12T17:21:22Z" finished-at="2020-01-12T17:21:22Z">
+      <class name="testcases.NextDoorPageTitleMatch">
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:testcases.NextDoorPageTitleMatch@87a85e1]" name="verifyTitle" duration-ms="64" started-at="2020-01-12T22:51:22Z" finished-at="2020-01-12T22:51:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+      </class> <!-- testcases.NextDoorPageTitleMatch -->
+    </test> <!-- NextDoorPageTitleMatch Test -->
+    <test name="NextDoorHub Login Test" duration-ms="13552" started-at="2020-01-12T17:21:22Z" finished-at="2020-01-12T17:21:36Z">
+      <class name="testcases.NextDoorHubLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.NextDoorHubLogin@306cf3ea]" name="setUp" is-config="true" duration-ms="34524" started-at="2020-01-12T22:50:47Z" finished-at="2020-01-12T22:51:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="nextDoorHubLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.NextDoorHubLogin@306cf3ea]" name="nextDoorHubLogin" duration-ms="13493" started-at="2020-01-12T22:51:22Z" data-provider="getData" finished-at="2020-01-12T22:51:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8620071772]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QAmustak@098765]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nextDoorHubLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.NextDoorHubLogin@306cf3ea]" name="tearDown" is-config="true" duration-ms="1087" started-at="2020-01-12T22:51:36Z" finished-at="2020-01-12T22:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.NextDoorHubLogin -->
+    </test> <!-- NextDoorHub Login Test -->
+  </suite> <!-- Data Driven Framework2 -->
+</testng-results>

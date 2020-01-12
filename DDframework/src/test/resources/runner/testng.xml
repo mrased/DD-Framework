@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Framework2">
+
+  <listeners>
+    <listener class-name="listeners.CustomListeners"></listener>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+  </listeners>
+
+
+
+  <test name="NextDoorPageTitleMatch Test">
+    <classes>
+      <class name="testcases.NextDoorPageTitleMatch"/>
+    </classes>
+  </test> <!-- NextDoorPageTitleMatch -->
+  
+ <test name="NextDoorHub Login Test">
+    <classes>
+      <class name="testcases.NextDoorHubLogin"/>
+    </classes>
+  </test> <!-- NextDoorHub Login Test -->
+ 
+
+</suite> <!-- Data Driven Framework -->
