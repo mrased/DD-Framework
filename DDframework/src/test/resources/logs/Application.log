@@ -1,0 +1,5 @@
+18:50:49,659 DEBUG devpinoyLogger:60 - Config properties file loaded
+18:50:49,659 DEBUG devpinoyLogger:78 - OR properties file loaded
+18:50:52,757 DEBUG devpinoyLogger:92 - Launching Chrome
+18:50:54,671 DEBUG devpinoyLogger:103 - Navigated to: https://nextdoorhub.com/
+18:51:09,536 DEBUG devpinoyLogger:178 - Test Execution Completed !!!
