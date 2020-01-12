@@ -29,9 +29,6 @@ import utilities.ExcelReader;
 /**
  * We will be initializing in this TestBase class: WebDriver, Properties, Logs
  * and Excel File Reader
- * 
- * @author SMR
- *
  */
 public class TestBase {
 	public static final Properties OR = new Properties();
